@@ -1,0 +1,28 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="collective.ptg.presentation">
+
+    <browser:resourceDirectory
+        name="ptg.presentation"
+        directory="resources"
+        />
+
+    <adapter
+        for="collective.plonetruegallery.interfaces.IGallery"
+        provides=".IPresentationDisplaySettings"
+        factory=".PresentationSettings" />
+
+    <browser:page
+        for="collective.plonetruegallery.interfaces.IGallery"
+        name="galleryview-presentation"
+        class=".PresentationDisplayType"
+        template="presentation.pt"
+        permission="zope2.View" />
+
+    <utility
+        component=".PresentationDisplayType"
+        provides="collective.plonetruegallery.interfaces.IDisplayType"
+        name="galleryview-presentation" />
+
+</configure>
