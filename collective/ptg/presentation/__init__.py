@@ -62,7 +62,7 @@ class IPresentationDisplaySettings(IBaseSettings):
     presentation_hidetext = schema.Bool(
         title=_(u"label_presentation_hidetext",
             default=u"Hide image text"),
-        default="false",
+        default=False,
         )
 
 
