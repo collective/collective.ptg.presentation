@@ -59,6 +59,11 @@ class IPresentationDisplaySettings(IBaseSettings):
                 _(u"label_presentation_ypositionright", default=u"Right")
             )
         ]))
+    presentation_hidetext = schema.Bool(
+        title=_(u"label_presentation_hidetext",
+            default=u"Hide image text"),
+        default="false",
+        )
 
 
 class PresentationDisplayType(BatchingDisplayType):

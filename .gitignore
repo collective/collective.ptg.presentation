@@ -1,2 +1,6 @@
 
 .DS_Store
+
+*.pyc
+
+collective.ptg.presentation.egg-info/*

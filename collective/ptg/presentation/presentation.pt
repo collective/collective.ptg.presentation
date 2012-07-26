@@ -11,7 +11,7 @@
     
             <div class="presentationshadow"></div>           
             <a href=""  tal:attributes="href img/link" >
-                <div class="presentationtext">
+                <div class="presentationtext" tal:condition="view/presentation_hidetext">
                     <h3 tal:content="img/title" />
                     <p class="captiondescription" tal:content="img/description" />
                 </div>
