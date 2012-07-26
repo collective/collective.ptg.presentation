@@ -5,7 +5,7 @@ version = '1.0.2'
 
 setup(name='collective.ptg.presentation',
       version=version,
-      description="",
+      description="Adds a presentation gallery layout to collective.plonetruegallery",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
