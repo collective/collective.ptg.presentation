@@ -4,3 +4,8 @@
 *.pyc
 
 collective.ptg.presentation.egg-info/*
+dist/collective.ptg.presentation-1.0.3.zip
+
+dist/collective.ptg.presentation-1.0.4.zip
+
+dist/collective.ptg.presentation-1.0.5.zip
