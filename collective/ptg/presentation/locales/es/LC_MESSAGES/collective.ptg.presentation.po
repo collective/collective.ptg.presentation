@@ -31,14 +31,13 @@ msgstr "Presentation"
 
 #. Default: "Mouseover or click"
 #: ./__init__.py:12
-#, fuzzy
 msgid "label_presentation_effect"
 msgstr "Cursor del ratón sobre o al hacer clic"
 
 #. Default: "Height of the gallery in pixels"
 #: ./__init__.py:28
 msgid "label_presentation_height"
-msgstr "Alto de la galería en pixels"
+msgstr "Alto de la galería en píxeles"
 
 #. Default: "Hide image text"
 #: ./__init__.py:63
@@ -52,14 +51,13 @@ msgstr "Mínimo ancho de imágenes"
 
 #. Default: "Mouse enter"
 #: ./__init__.py:19
-#, fuzzy
 msgid "label_presentation_mouseover"
-msgstr "Cursor de ratón"
+msgstr "Cursor de ratón sobre"
 
 #. Default: "Width of the gallery in pixels"
 #: ./__init__.py:23
 msgid "label_presentation_width"
-msgstr "Ancho de la galería en pixels"
+msgstr "Ancho de la galería en píxeles"
 
 #. Default: "Horizontal image position"
 #: ./__init__.py:37
