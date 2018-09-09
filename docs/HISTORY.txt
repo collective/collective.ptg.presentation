@@ -4,6 +4,8 @@ Changelog
 1.2 (unreleased)
 ------------------
 
+- Added Spanish translation [macagua]
+
 - Added i18n support generating Gettext files and enabled it [macagua]
 
 
