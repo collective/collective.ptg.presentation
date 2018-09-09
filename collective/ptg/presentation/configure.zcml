@@ -3,6 +3,8 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="collective.ptg.presentation">
 
+    <i18n:registerTranslations directory="locales" />
+
     <browser:resourceDirectory
         name="ptg.presentation"
         directory="resources"
