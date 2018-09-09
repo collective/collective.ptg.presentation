@@ -1,10 +1,17 @@
 Changelog
 =========
 
+1.2 (unreleased)
+------------------
+
+- Nothing changed yet.
+
+
 1.1 (2012-10-02)
 ----------------
 
 - added copyright information [eehmke]
+
 
 1.0.5 (2012-10-02)
 ------------------
@@ -22,6 +29,7 @@ Changelog
 ------------------
 
 - Added option to hide image text
+
 
 1.0 (2012-07-04)
 ----------------
