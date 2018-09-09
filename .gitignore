@@ -1,11 +1,41 @@
-
-.DS_Store
-
+*~
 *.pyc
+*.pyo
+*.tmp*
+*.mo
+*.egg
+*.EGG
+*.egg-info
+*.EGG-INFO
+*.kpf
+*.swp
+*.wpr
+.*.cfg
+.installed.cfg
+.mr.developer.cfg
+.hg/
+.bzr/
+.svn/
+.project
+.pydevproject
+*.sublime-workspace
+pip-selfcheck.json
+site.zcml
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+docs/_build/
+eggs/
+fake-eggs/
+include/
+lib/
+local/
+parts/
+var/
 
-collective.ptg.presentation.egg-info/*
-dist/collective.ptg.presentation-1.0.3.zip
 
-dist/collective.ptg.presentation-1.0.4.zip
 
-dist/collective.ptg.presentation-1.0.5.zip
+# OSX
+.DS_Store
